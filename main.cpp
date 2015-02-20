@@ -28,8 +28,8 @@ int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE);
-    glutInitWindowSize(500,500);
-    glutInitWindowPosition(100,100);
+    glutInitWindowSize(1000,700);
+    glutInitWindowPosition(0,0);
     glutCreateWindow("OpenGL - First window demo");
     glutDisplayFunc(renderFunction);
     glutMainLoop();    
