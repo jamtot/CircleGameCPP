@@ -1,9 +1,0 @@
-#include "Test.h"
-Test::Test(){}
-
-Test::Test(int x, int y) : mX(x), mY(y) 
-{ 
-	std::cout << "The sum of " << mX << " and " << mY << " is: " << (mX + mY) << std::endl; 
-}
-
-Test::~Test(){}
