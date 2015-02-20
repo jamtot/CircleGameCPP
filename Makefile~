@@ -1,0 +1,7 @@
+CC=g++
+CFLAGS=-Wall -g
+LIBS= -lglut -lGL 
+all:
+	$(CC) $(CFLAGS) test_1.cpp $(LIBS)
+clean:
+	rm -f a.out
